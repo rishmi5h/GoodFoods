@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+* {
+  font-family: "Noto Sans", sans-serif;
+  background: var(--black);
+  color: var(--white);
+}
+
+button {
+  cursor: pointer;
+  padding: 0.8em 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  border: 2px solid;
+}
+
+.outputSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.output {
+  border: 1px solid white;
+  margin: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  width: 200px;
+}
